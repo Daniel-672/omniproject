@@ -1,0 +1,11 @@
+IMDB-WIKI의 안면이미지 - WIKI(62,000장)확보
+https://data.vision.ee.ethz.ch/cvl/rrothe/imdb-wiki/
+
+캐글 안면이미지 - Humans(7,000장)확보
+https://www.kaggle.com/ashwingupta3012/human-faces
+
+데이터셋 참고
+https://www.aitimes.kr/news/articleView.html?idxno=15924
+https://booiljung.github.io/technical_articles/computer_vision/datasets.html
+https://ibug.doc.ic.ac.uk/resources/lightweight-face-recognition-challenge-workshop/
+안면인식을 위한 데이터 셋 - 필요하면 신청 예정 http://kface.kist.re.kr/#/requestInsert?bbstypecd=request&requestGb=1&pageno=0&searchopt=PURPOSE_CTN&search=

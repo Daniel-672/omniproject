@@ -1,0 +1,17 @@
+집중도를 수치화 하기 위한 변수들 선정을 위한 자료
+http://www.digitaltoday.co.kr/news/articleView.html?idxno=107361
+https://patents.google.com/patent/KR20160139221A/ko
+https://m.blog.naver.com/makekorea_kr/221643228442
+https://www.koreascience.or.kr/article/CFKO201614956118094.pdf
+https://s-space.snu.ac.kr/bitstream/10371/79078/1/%ec%b0%bd%ea%b0%84%ed%98%b8_%ec%9d%b4%ec%9a%a9%ec%88%99_%ec%8b%a4%ec%a0%9c%ed%95%99%ec%8a%b5%ec%8b%9c%ea%b0%84_%eb%b9%84%ea%b5%90%eb%b6%84%ec%84%9d%ec%9d%84_%ec%9c%84%ed%95%9c_%ec%9d%b8%eb%a5%98%ed%95%99%ec%a0%81_%ec%97%b0%ea%b5%ac%eb%b0%a9%eb%b2%95.pdf
+http://www.ricee.or.kr/www/boardview/3/8570
+https://itec.etri.re.kr/itec/sub02/sub02_01_1.do?t_id=6094-2014-11647#1
+
+# 집중도 지수화 변수 생각해 보기
+## 단기 장기 검증 (예 : 10초단위 체크 5분단위체크)
+### 집중도 100에서 가/감점 시스템 (45분을 100점으로 가감)
+### 화면에서 벗어나면 하락 - 특정시간 동안 안 벗어 나면 상승
+### 눈을 특정 시간 이상 감고 있으면 하락 - 특정시간 동안 안 감고 있으면 상승
+### 안면의 움직임이 빈발하게 움직이면 하락 - 빈발하게 움직이지 않으면 상승
+### 마이크가 꺼진 상태에서 음성이 잡히면 하락 - 마이크가 켜진 상태에서 음성이 나면 상승
+### 온/습도/공기질이 기준치를 벗어나면 하락 - 기준치를 유지하면 상승

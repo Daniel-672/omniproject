@@ -1,0 +1,114 @@
+{
+    "paths": [
+        {
+            "name": "/face",
+            "lambdaFunction": "faceApi",
+            "privacy": {
+                "protected": true,
+                "auth": [
+                    "/POST",
+                    "/GET",
+                    "/PUT",
+                    "/PATCH",
+                    "/DELETE"
+                ],
+                "unauth": [
+                    "/GET"
+                ]
+            },
+            "policyResourceName": "/face"
+        },
+        {
+            "name": "/facetest",
+            "lambdaFunction": "faceTest",
+            "privacy": {
+                "open": true
+            }
+        },
+        {
+            "name": "/score",
+            "lambdaFunction": "scoreApi",
+            "privacy": {
+                "protected": true,
+                "auth": [
+                    "/POST",
+                    "/GET",
+                    "/PUT",
+                    "/PATCH",
+                    "/DELETE"
+                ],
+                "unauth": [
+                    "/POST",
+                    "/GET",
+                    "/PUT",
+                    "/PATCH",
+                    "/DELETE"
+                ]
+            }
+        },
+        {
+            "name": "/recent-score",
+            "lambdaFunction": "recentScoreApi",
+            "privacy": {
+                "open": true
+            }
+        }
+    ],
+    "resourceName": "faceApi",
+    "apiName": "faceApi",
+    "functionArns": [
+        {
+            "lambdaFunction": "faceApi"
+        },
+        {
+            "lambdaFunction": "faceTest"
+        },
+        {
+            "lambdaFunction": "scoreApi"
+        },
+        {
+            "lambdaFunction": "recentScoreApi"
+        }
+    ],
+    "privacy": {
+        "auth": 3,
+        "unauth": 3,
+        "authRoleName": "amplify-videochatsolution-dev-141403-authRole",
+        "unAuthRoleName": "amplify-videochatsolution-dev-141403-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "faceApi",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        },
+        {
+            "category": "function",
+            "resourceName": "faceTest",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        },
+        {
+            "category": "function",
+            "resourceName": "scoreApi",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        },
+        {
+            "category": "function",
+            "resourceName": "recentScoreApi",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ],
+    "uuid": "83f6f152"
+}

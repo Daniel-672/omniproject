@@ -1,0 +1,31 @@
+사전 설치할 것
+
+1. Node.js     https://nodejs.org/ko/   LTS 버전 설치
+2. Vue CLI   
+     - Node.js 설치 후에 , npm install -g @vue/cli
+
+
+이후 진행
+
+1. 리포지토리 클론, 깃 설치 필수
+    git clone https://github.com/coconutstd/video-chat-solution
+2. cd video-chat-solution
+3. npm install     <- 웹 실행을 위한 기타 의존성 패키지 설치
+4. npm run serve     <-  node.js 서버를 실행시켜 웹 실행 
+5. 크롬 웹 브라우저에서 localhost:8080 으로 접속
+6. 기존 아이디, 비밀번호로 로그인 혹인 새로 회원가입
+7. VideoChat 메뉴 클릭 및 이동 -> 방제목, 이름 기입후 시작하기 버튼 클릭 -> 기본 장치 세팅으로 화상 채팅 시작
+
+=> 여기까지는 다 되셔야 개발진행 가능합니다!
+
+개발 방법
+
+1. 크롬 개발자 도구 연 후 Element 선택 도구 <Video></Video> 태그 찾기 <- 본인 얼굴화면은 태그 아이디 tile-16인듯
+2. 프로젝트 폴더/src/VideoChat.vue 에 자바스크립트 코드를 연결 할 수 있음.
+3. video 태그 나오는 부분은 336라인 부터
+
+* 간단 Vue 설명 
+.vue 파일은 <template></template> 안에 html, <script></script> 안에 자바스크립트, <style></style> 안에 css 코드가 들어간 것 이라고 생각하면 됩니다.
+
+* 자바스크립트 모듈 로드하는 방법
+VideoChat.vue 의 503, 504 라인 보시면 모듈 임포트 하는 부분 참고하시면 될 거 같습니다. -> 이 부분은 저도 더 봐야합니다
